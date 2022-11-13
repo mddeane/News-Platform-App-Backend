@@ -1,0 +1,8 @@
+insert into rundowns (CREATED_BY, CREATED_AT, MODIFIED_BY, MODIFIED_AT, TITLE, START_TIME, ENDTIME, STATUS) values ('jdoe', '2022-11-11 00:00:00', 'jdoe', '2022-11-11 00:00:00', 'Rundown title', '2022-11-11 00:00:00', '2022-11-11 01:00:00', 'ACTIVATED')
+
+
+insert into rows (BACK_TIME, CREATED_AT, CREATED_BY, FRONT_TIME, MODIFIED_AT, MODIFIED_BY, NOTES, PAGE, READER, ROW_STATUS, ROW_TYPE, SEGMENT, STORY_ID, TITLE, WRITER) values('2022-11-11 00:00:00', '2022-11-11 00:00:00', 'jdoe', '2022-11-11 00:00:00', '2022-11-11 00:00:00', 'jdoe', 'notes', 'A1', 'anchor 1', '', 'STORY', 'INTRO VO', 0, 'story title', 'assigned writer')  
+
+
+insert into users (FIRST_NAME, LAST_NAME, PASSWORD, ROLE, USERNAME) values ('John', 'Doe', 'password', 'PRODUCER', 'jdoe')
+insert into users (FIRST_NAME, LAST_NAME, PASSWORD, ROLE, USERNAME) values ('Miles', 'Davis', 'password', 'PRODUCER', 'mdavis')
